@@ -6,6 +6,7 @@ class Particles:
     """
     Particle class to store particle properties
     """
+<<<<<<< HEAD
     def __init__(self, N:100):
         self.nparticles = N
         self.time = 0
@@ -127,4 +128,9 @@ if __name__=='__main__':
     pts.tags = [-1]
     print(tags)
 
+=======
+    def __init__(self, N):
+        self.nparticles = N
+        return
+>>>>>>> 3ad9a798fb6b06cd942f9de1de8343d063ca4486
 
